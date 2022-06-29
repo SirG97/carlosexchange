@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "carlosapp",
-    "slug": "carlosapp",
-    "version": "1.0.0",
+    "name": "Carlos Exchange",
+    "slug": "CarlosExchange",
+    "version": "1.0.5",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#3F37CC"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,16 +17,22 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.carlosexchange",
+      "buildNumber": "12"
     },
     "android": {
+      "package": "com.carlosexchange",
+      "versionCode": 3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#3C41C9"
+      },
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     }
+
   }
 }

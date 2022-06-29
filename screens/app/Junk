@@ -1,0 +1,82 @@
+        <BouncyCheckbox 
+                        size={20}
+                        fillColor={colors.theme}
+                        
+                        textStyle={{
+                            textDecorationLine: "none",
+                          }}
+                        iconStyle={{ borderColor: colors.theme, borderRadius: 5 }}
+                        text='I agree to the instructions above and want to proceed to the payment window'
+                        onPress={(isChecked) => {
+                            setCheckboxState(!isChecked)
+                            if(checkboxState !== false){
+                                validateInput(selectedCoin, selectedCoinNetwork, amount)
+                            }else{
+                                setInvalid(true)
+                            }
+                            
+                      }} />
+
+
+       <List.Item
+                        title="Coin"
+                    
+                        right={props => <View style={styles.txnValContainer}>
+                                <Text style={styles.txnVal}>500</Text>
+                                </View>
+                        }
+                        titleStyle={styles.txnKey}
+                        />
+                        <Divider />
+
+                        <List.Item
+                        title="Coin Network"
+                    
+                        right={props => <View style={styles.txnValContainer}>
+                                <Text style={styles.txnVal}>ERC-20</Text>
+                                </View>
+                        }
+                        titleStyle={styles.txnKey}
+                        />
+                        <Divider />
+
+                        <List.Item
+                        title="Address"
+                    
+                        right={props => <View style={styles.txnValContainer}>
+                                     <Text style={styles.txnVal}>1B3PU7fFr2HZFNy1aexfcohKz59ohDVsdt</Text>
+                                </View>
+                        }
+                        titleStyle={styles.txnKey}
+                        />
+                        <Divider />
+
+                        <List.Item
+                        title="Coin"
+                    
+                        right={props => <List.Icon {...props} icon="folder" />}
+                        />
+
+
+
+
+
+ecdsa-sha2-nistp521 AAAAE2VjZHNhLXNoYTItbmlzdHA1MjEAAAAIbmlzdHA1MjEAAACFBAHqHQQ9V/D7j6eKH/6MEj/xMbS47WU5/Vq1U0DqkW3LzLHttGRfaNljZciGw27Wp1u6blklCuwW19ToSTCACM0vZgAsGo4dp3YOCEna9v9ZH4Nk5x7XMG9ooVjHhVZQFdziWw0xH/RS44Za9ouyw03htvpNCK6COrTRYbc5QsCv1NZgRw== sirgittarus@gmail.com
+
+
+-----BEGIN EC PRIVATE KEY-----
+MIICnAIBAQRBGr85TvjNdfsAucCAjm+1srSo9BOpF+C2lqBpI2UyGp4xDs0j8vPe
+vbSZufl/+650PgCDulaKQT18ilSGY5GaPjygggHGMIIBwgIBATBNBgcqhkjOPQEB
+AkIB////////////////////////////////////////////////////////////
+//////////////////////////8wgZ4EQgH/////////////////////////////
+/////////////////////////////////////////////////////////ARBUZU+
+uWGOHJofkpohoLaFQO6i2nJbmbMV87i0iZGO8QnhVhk5Uex+k3sWUsC9O7G/BzVz
+34g9LDTx70Uf1GtQPwADFQDQnogAKRy4U5bMZxc5MoSqoNpkugSBhQQAxoWOBrcE
+BOnNnj7LZiOVtEKcZIE5BT+1Ifgor2BrTT26oUted+/nWSj+HcEnov+o3jNIs8GF
+akKb+X5+McLlvWYBGDkpaniaO8AEXIpftCx9G9mY9URJV5tEaBevvRcnPmYsl+5y
+mV70JkDFULkBP60HYTU8cIaicsJAiL6Udp/RZlACQgH/////////////////////
+//////////////////////pRhoeDvy+Wa3/MAUj3CaXQO7XJuImcR667b7cekThk
+CQIBAaGBiQOBhgAEAeodBD1X8PuPp4of/owSP/ExtLjtZTn9WrVTQOqRbcvMse20
+ZF9o2WNlyIbDbtanW7puWSUK7BbX1OhJMIAIzS9mACwajh2ndg4ISdr2/1kfg2Tn
+Htcwb2ihWMeFVlAV3OJbDTEf9FLjhlr2i7LDTeG2+k0IroI6tNFhtzlCwK/U1mBH
+-----END EC PRIVATE KEY-----

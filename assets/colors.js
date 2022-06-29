@@ -9,8 +9,10 @@ const colors = {
     grey400: '#7B8794',
     white: '#FFFFFF',
     red: '#F93225',
+    green: '#45a92b',
     primary: '#F3F7F9',
-    theme: '#3C41C9'
+    theme: '#3C41C9',
+    black: '#1C1C1C',
 }
 
 

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "386589926180",
+    "project_id": "pc-api-6401158183725957615-712",
+    "storage_bucket": "pc-api-6401158183725957615-712.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386589926180:android:a0a6dcc153f016eefd89b1",
+        "android_client_info": {
+          "package_name": "com.carlosexchange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386589926180-s6emlo42s0qjlisv5q7nrep5ps7cpgtk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJO8ZQCkxggJSvar3baS3LWWb58_xw_y8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386589926180-s6emlo42s0qjlisv5q7nrep5ps7cpgtk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
